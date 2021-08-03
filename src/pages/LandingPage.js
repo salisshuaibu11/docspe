@@ -5,6 +5,7 @@ import Features from "../components/sections/Features.js";
 import Doctors from "../components/sections/Doctors.js";
 import Clients from "../components/sections/Clients.js";
 import Faq from "../components/sections/Faq.js";
+import DownloadApp from "../components/sections/DownloadApp.js"
 
 const LandingPage = () => {
   return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <Doctors />
       <Clients />
       <Faq />
+      <DownloadApp />
     </>
   )
 }
