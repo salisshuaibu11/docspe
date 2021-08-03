@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Heading, Box, Text, Stack, Image, SimpleGrid } from "@chakra-ui/react";
+import { Heading, Box, Text, Stack, Image } from "@chakra-ui/react";
 
 const Clients = () => {
   useEffect(() => {
