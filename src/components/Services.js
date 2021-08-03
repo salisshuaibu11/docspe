@@ -9,8 +9,6 @@ import {
 } from "@chakra-ui/react";
 import { PhoneIcon } from "@chakra-ui/icons";
 
-import ButtonComponent from "./UI/Button";
-
 const Services = () => {
   return (
     <Stack bg="gray.100" py="3rem">

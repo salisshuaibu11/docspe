@@ -1,17 +1,6 @@
 import React from "react";
-import {
-  Flex,
-  Box,
-  Stack,
-  Image,
-  Heading,
-  Text,
-  List,
-  ListItem,
-  ListIcon,
-} from "@chakra-ui/react";
+import { Flex, Box, Image, Heading, List } from "@chakra-ui/react";
 
-import { PhoneIcon } from "@chakra-ui/icons";
 import ListItemComponent from "./UI/List";
 
 const Features = () => {

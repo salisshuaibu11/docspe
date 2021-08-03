@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, ListIcon, Heading, Box, Stack, Text } from "@chakra-ui/react";
+import { Flex, Heading, Box, Stack, Text } from "@chakra-ui/react";
 
 const ListComponent = ({ textPrimary, textSecondary }) => {
   return (
