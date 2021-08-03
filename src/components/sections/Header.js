@@ -8,12 +8,13 @@ import {
   Button,
  } from "@chakra-ui/react";
 
- import ButtonComponent from "./UI/Button";
+ import InputComponent from "../UI/Input";
 
 const Header = () => {
   return (
     <Flex
       align="center"
+      spacing="4rem"
       justify={{base: "center", md: "space-around", xl: "space-between"}}
       direction={{base: "column-reverse", md: "row"}}
       wrap="no-wrap"
@@ -64,7 +65,7 @@ const Header = () => {
             Get RM10 When You Sign Up Now
             <Heading spacing={2} fontWeight="normal" as="span" size="xs">T&C Apply</Heading>
           </Heading>
-          <ButtonComponent
+          <InputComponent
             bgColor="blue.600"
             textColor="white"
             borderColor=""/>
@@ -72,7 +73,7 @@ const Header = () => {
 
       </Stack>
       <Box w={{base: "80%", sm: "60%", md: "50%"}} mb={{base: 12, md: 0}}>
-        <Image src="assets/images/yeti.jpg" size="50%" rounded="1rem" shadow="2xl" />
+        <Image src="assets/images/doctor.png" size="50%" rounded="1rem" shadow="2xl" />
       </Box>
     </Flex>
   )

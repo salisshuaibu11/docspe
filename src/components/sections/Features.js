@@ -1,26 +1,37 @@
 import React from "react";
 import { Flex, Box, Image, Heading, List } from "@chakra-ui/react";
-
-import ListItemComponent from "./UI/List";
+import ListItemComponent from "../UI/List";
 
 const Features = () => {
   return (
     <>
       <Flex
         align="center"
-        justify={{ base: "center", md: "space-around", xl: "space-between" }}
+        justify={{ base: "center",  }}
         direction={{ base: "column-reverse", md: "row" }}
         wrap="no-wrap"
         minH="70vh"
         px={8}
         py="6rem"
       >
-        <Box w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
+        <Box h="100%" pos="relative" w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
           <Image
-            src="assets/images/yeti.jpg"
-            size="50%"
-            rounded="1rem"
-            shadow="2xl"
+            width="400px"
+            src="assets/images/Ellipse2.png"
+          />
+          <Image
+            pos="absolute"
+            top="4rem"
+            left="3rem"
+            width="400px"
+            src="assets/images/Ellipse1.png"
+          />
+          <Image
+            pos="absolute"
+            top="-3rem"
+            left="7rem"
+            width="250px"
+            src="assets/images/Home.png"
           />
         </Box>
         <Box
@@ -106,12 +117,24 @@ const Features = () => {
             />
           </List>
         </Box>
-        <Box w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
+        <Box h="100%" pos="relative" w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
           <Image
-            src="assets/images/yeti.jpg"
-            size="50%"
-            rounded="1rem"
-            shadow="2xl"
+            width="400px"
+            src="assets/images/Ellipse3.png"
+          />
+          <Image
+            pos="absolute"
+            top="4rem"
+            left="3rem"
+            width="400px"
+            src="assets/images/Ellipse4.png"
+          />
+          <Image
+            pos="absolute"
+            top="-3rem"
+            left="7rem"
+            width="250px"
+            src="assets/images/Supplements.png"
           />
         </Box>
       </Flex>

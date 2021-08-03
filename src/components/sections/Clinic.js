@@ -5,7 +5,7 @@ import {
   Heading
  } from "@chakra-ui/react";
 
-import ButtonComponent from "./UI/Button";
+import InputComponent from "../UI/Input";
 
 const Clinic = () => {
   return (
@@ -25,7 +25,7 @@ const Clinic = () => {
           >
           Free Clinic Setup Course
         </Heading>
-        <ButtonComponent
+        <InputComponent
           bgColor="white"
           textColor="blue.600"
           borderColor="white"/>

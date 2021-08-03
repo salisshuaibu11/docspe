@@ -1,12 +1,17 @@
 import React from "react";
 import { Button, InputGroup, Input } from "@chakra-ui/react";
 
-const ButtonComponent = ({bgColor, textColor, borderColor}) => {
+const InputComponent = ({bgColor, textColor, borderColor}) => {
   return (
-    <InputGroup size="lg" pos="relative">
+    <InputGroup
+      size="lg"
+      pos="relative">
       <Input
         type="text"
         rounded="0"
+        _focus={{
+          borderColor: borderColor
+        }}
         placeholder="Enter your email"
       />
         <Button
@@ -25,4 +30,4 @@ const ButtonComponent = ({bgColor, textColor, borderColor}) => {
   )
 }
 
-export default ButtonComponent;
+export default InputComponent;

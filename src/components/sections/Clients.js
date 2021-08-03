@@ -58,7 +58,7 @@ const Clients = () => {
             </Text>
           </Box>
           <Box mt={4}>
-            <Image src="assets/images/yeti.jpg" w={10} h={10} rounded="full" />
+            <Image src="assets/images/clients/1.png" w={10} h={10} rounded="full" />
             <Heading fontSize="1.4rem" as="h4">
               Jane Cooper
             </Heading>
@@ -77,7 +77,7 @@ const Clients = () => {
             </Text>
           </Box>
           <Box mt={4}>
-            <Image src="assets/images/yeti.jpg" w={10} h={10} rounded="full" />
+            <Image src="assets/images/clients/2.png" w={10} h={10} rounded="full" />
             <Heading fontSize="1.4rem" as="h4">
               Jane Cooper
             </Heading>
@@ -96,7 +96,7 @@ const Clients = () => {
             </Text>
           </Box>
           <Box mt={4}>
-            <Image src="assets/images/yeti.jpg" w={10} h={10} rounded="full" />
+            <Image src="assets/images/clients/3.png" w={10} h={10} rounded="full" />
             <Heading fontSize="1.4rem" as="h4">
               Jane Cooper
             </Heading>

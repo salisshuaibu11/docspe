@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion, Heading } from "@chakra-ui/react";
-import AccordionComponent from "./UI/Accordion";
+import AccordionComponent from "../UI/Accordion";
 
 const Faq = () => {
   return (

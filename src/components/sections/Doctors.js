@@ -17,21 +17,21 @@ const Doctors = () => {
       </Box>
       <SimpleGrid align="center" minChildWidth="120px" spacing="40px" px="10px">
         <Box p={5} align="left">
-          <Image src="assets/images/yeti.jpg" size="50%" rounded="1rem" />
+          <Image src="assets/images/doctors/1.png" size="50%" rounded="1rem" />
           <Heading my={2} color="blue.700" fontSize="1.4rem" as="h4">
             Dr. Mohd Shah
           </Heading>
           <Text>GP / General</Text>
         </Box>
         <Box p={5} align="left">
-          <Image src="assets/images/yeti.jpg" size="50%" rounded="1rem" />
+          <Image src="assets/images/doctors/2.png" size="50%" rounded="1rem" />
           <Heading my={2} color="blue.700" fontSize="1.4rem" as="h4">
             Dr. Choo Yin
           </Heading>
           <Text>Pediatrician</Text>
         </Box>
         <Box p={5} align="left">
-          <Image src="assets/images/yeti.jpg" size="50%" rounded="1rem" />
+          <Image src="assets/images/doctors/3.png" size="50%" rounded="1rem" />
           <Heading my={2} color="blue.700" fontSize="1.4rem" as="h4">
             Dr. Choo Yin
           </Heading>
