@@ -16,7 +16,7 @@ const Clinic = () => {
       wrap="no-wrap"
       minH="50vh"
       px={8}
-      bg="blue.500"
+      bg="#000072"
     >
       <Stack spacing={4}>
         <Heading
@@ -27,7 +27,7 @@ const Clinic = () => {
         </Heading>
         <InputComponent
           bgColor="white"
-          textColor="blue.600"
+          textColor="#0000a5"
           borderColor="white"/>
       </Stack>
     </Flex>

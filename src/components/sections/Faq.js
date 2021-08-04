@@ -1,10 +1,10 @@
 import React from "react";
-import { Accordion, Heading } from "@chakra-ui/react";
+import { Accordion, Heading, Box } from "@chakra-ui/react";
 import AccordionComponent from "../UI/Accordion";
 
 const Faq = () => {
   return (
-    <div style={{ padding: "2rem 10rem" }}>
+    <Box px="5rem" py="2rem">
       <Heading mb={10} as="h3" fontSize="2rem">
         FAQ'S
       </Heading>
@@ -45,7 +45,7 @@ const Faq = () => {
           tempor incididunt ut labore"
         />
       </Accordion>
-    </div>
+    </Box>
   );
 };
 

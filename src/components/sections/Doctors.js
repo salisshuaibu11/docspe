@@ -1,10 +1,10 @@
 import React from "react";
-import { Heading, Box, Text, Stack, Image, SimpleGrid } from "@chakra-ui/react";
+import { Heading, Box, Text, Container, Stack, Image, SimpleGrid } from "@chakra-ui/react";
 
 const Doctors = () => {
   return (
-    <Stack bg="gray.100" py="3rem">
-      <Box align="center" w="50%" m="auto">
+    <Stack bg="gray.100" py="3rem" px="5rem">
+      <Container align="center"mb="10px">
         <Heading as="h3" size="lg" mb={2}>
           Meet Some of Our Doctors
         </Heading>
@@ -14,24 +14,25 @@ const Doctors = () => {
           1500s. when an unknown printer took a gallery of type and scrambled it
           to make a type specimen book.
         </Text>
-      </Box>
-      <SimpleGrid align="center" minChildWidth="120px" spacing="40px" px="10px">
-        <Box p={5} align="left">
-          <Image src="assets/images/doctors/1.png" size="50%" rounded="1rem" />
+      </Container>
+      <SimpleGrid
+          columns={{xl: "3", md: "2"}}>
+        <Box align="center">
+          <Image shadow="lg" src="assets/images/doctors/1.png" rounded="1"/>
           <Heading my={2} color="blue.700" fontSize="1.4rem" as="h4">
             Dr. Mohd Shah
           </Heading>
           <Text>GP / General</Text>
         </Box>
-        <Box p={5} align="left">
-          <Image src="assets/images/doctors/2.png" size="50%" rounded="1rem" />
+        <Box align="center">
+          <Image shadow="lg" src="assets/images/doctors/3.png" rounded="1"/>
           <Heading my={2} color="blue.700" fontSize="1.4rem" as="h4">
             Dr. Choo Yin
           </Heading>
           <Text>Pediatrician</Text>
         </Box>
-        <Box p={5} align="left">
-          <Image src="assets/images/doctors/3.png" size="50%" rounded="1rem" />
+        <Box align="center">
+          <Image shadow="lg" src="assets/images/doctors/3.png" rounded="1rem" />
           <Heading my={2} color="blue.700" fontSize="1.4rem" as="h4">
             Dr. Choo Yin
           </Heading>

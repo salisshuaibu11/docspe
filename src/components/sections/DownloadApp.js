@@ -12,7 +12,8 @@ const DownloadApp = () => {
           justify={{base: "center", md: "space-around", xl: "space-between"}}
           direction={{base: "column-reverse", md: "row"}}
           wrap="no-wrap"
-          w="50%"
+          w={{xl: "50%"}}
+          py="1rem"
           px="5rem"
         >
           <div>
@@ -24,10 +25,19 @@ const DownloadApp = () => {
               Lorem Ipsum has been the industry's standard dummy text ever since the
               1500s.
             </Text>
+
+            <Stack spacing={4} direction="row" align="center">
+              <a href="#">
+                <Image src="assets/images/googlePlay.png" alt="Google Play Icon"/>
+              </a>
+              <a href="#">
+                <Image src="assets/images/googlePlay.png" alt="Google Play Icon"/>
+              </a>
+            </Stack>
           </div>
         </Flex>
 
-        <Box w="50%">
+        <Box w={{xl: "50%"}}>
           <Image src="assets/images/doctor-showing-phone.png"/>
         </Box>
       </Flex>

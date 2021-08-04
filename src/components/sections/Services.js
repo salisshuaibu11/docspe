@@ -3,6 +3,7 @@ import {
   Heading,
   Box,
   Text,
+  Flex,
   Container,
   Stack,
   SimpleGrid,
@@ -11,15 +12,15 @@ import { PhoneIcon } from "@chakra-ui/icons";
 
 const Services = () => {
   return (
-    <Stack bg="gray.100" py="3rem">
+    <Stack bg="gray.100" p="5rem">
       <Heading as="h3" size="lg" align="center">
         Our Services
       </Heading>
-      <SimpleGrid align="center" minChildWidth="120px" spacing="40px" px="10px">
+      <SimpleGrid align="center" columns={{xl: "4", "md": "2"}} spacing="40px" px="10px">
         <Box p={5}>
-          <Container w={20} rounded="full" bg="white" p={5}>
+          <Flex justify="center" w="5rem" align="center" h={20} rounded="full" bg="white">
             <PhoneIcon color="blue.500" />
-          </Container>
+          </Flex>
           <Heading fontSize="1.3rem" my="2rem" weight="bold" as="h2">
             MyChron
           </Heading>
@@ -29,9 +30,9 @@ const Services = () => {
           </Text>
         </Box>
         <Box p={5}>
-          <Container w={20} rounded="full" bg="white" p={5}>
+          <Flex justify="center" w="5rem" align="center" h={20} rounded="full" bg="white">
             <PhoneIcon color="blue.500" />
-          </Container>
+          </Flex>
           <Heading fontSize="1.3rem" my="2rem" weight="bold" as="h2">
             Virtual Visit
           </Heading>
@@ -41,9 +42,9 @@ const Services = () => {
           </Text>
         </Box>
         <Box p={5}>
-          <Container w={20} rounded="full" bg="white" p={5}>
+          <Flex justify="center" w="5rem" align="center" h={20} rounded="full" bg="white">
             <PhoneIcon color="blue.500" />
-          </Container>
+          </Flex>
           <Heading fontSize="1.3rem" my="2rem" weight="bold" as="h2">
             COVID Center
           </Heading>
@@ -53,9 +54,9 @@ const Services = () => {
           </Text>
         </Box>
         <Box p={5}>
-          <Container w={20} rounded="full" bg="white" p={5}>
+          <Flex justify="center" w="5rem" align="center" h={20} rounded="full" bg="white">
             <PhoneIcon color="blue.500" />
-          </Container>
+          </Flex>
           <Heading fontSize="1.3rem" my="2rem" weight="bold" as="h2">
             Pharmacy
           </Heading>

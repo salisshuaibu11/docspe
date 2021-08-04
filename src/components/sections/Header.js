@@ -18,6 +18,7 @@ const Header = () => {
       justify={{base: "center", md: "space-around", xl: "space-between"}}
       direction={{base: "column-reverse", md: "row"}}
       wrap="no-wrap"
+      py="6rem"
       minH="70vh"
       px={8}
       mb={16}
@@ -47,12 +48,12 @@ const Header = () => {
           Connect with doctors online, available 24/7, from the comfort of your home.
         </Heading>
         <Stack spacing={4} direction="row" align="center">
-          <Button bg="gray.900" color="white">
-            Google Play
-          </Button>
-          <Button bg="gray.900" color="white">
-            App Store
-          </Button>
+          <a href="#">
+            <Image src="assets/images/googlePlay.png" alt="Google Play Icon"/>
+          </a>
+          <a href="#">
+            <Image src="assets/images/googlePlay.png" alt="Google Play Icon"/>
+          </a>
         </Stack>
 
         <Stack spacing={4} direction="column" align="center">
@@ -60,20 +61,20 @@ const Header = () => {
             as="p"
             size="md"
             fontWeight="bold"
-            color="blue.700"
+            color="#0000a5"
           >
             Get RM10 When You Sign Up Now
             <Heading spacing={2} fontWeight="normal" as="span" size="xs">T&C Apply</Heading>
           </Heading>
           <InputComponent
-            bgColor="blue.600"
+            bgColor="#0000a5"
             textColor="white"
             borderColor=""/>
         </Stack>
 
       </Stack>
       <Box w={{base: "80%", sm: "60%", md: "50%"}} mb={{base: 12, md: 0}}>
-        <Image src="assets/images/doctor.png" size="50%" rounded="1rem" shadow="2xl" />
+        <Image width="80%" src="assets/images/doctor.jpg" rounded="1rem" shadow="2xl" />
       </Box>
     </Flex>
   )

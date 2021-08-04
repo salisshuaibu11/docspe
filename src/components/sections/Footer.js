@@ -6,6 +6,7 @@ import {
   Stack,
   Text,
   Heading,
+  Select,
   ListItem,
  } from "@chakra-ui/react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -20,7 +21,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
   return (
-    <Box color="white" bg="blue.500">
+    <Box color="white" bg="#0000a5">
       <SimpleGrid
         py="1rem"
         px="10rem"
@@ -36,19 +37,19 @@ const Footer = () => {
           </Text>
           <Stack spacing={4} direction="row">
             <a href="#">
-              <FontAwesomeIcon icon={faFacebook}/>
+              <Image src="assets/images/icons/facebook.png" alt="Facebook Icon"/>
             </a>
             <a href="#">
-              <FontAwesomeIcon icon={faTwitter}/>
+              <Image src="assets/images/icons/twitter.png" alt="Twitter Icon"/>
             </a>
             <a href="#">
-              <FontAwesomeIcon icon={faWhatsapp} />
+              <Image src="assets/images/icons/whatsapp.png" alt="WhatsApp Icon"/>
             </a>
             <a href="#">
-              <FontAwesomeIcon icon={faLinkedin} />
+              <Image src="assets/images/icons/linkedin.png" alt="LinkedIn Icon"/>
             </a>
             <a href="#">
-              <FontAwesomeIcon icon={faInstagram} />
+              <Image src="assets/images/icons/instagram.png" alt="Instagram Icon"/>
             </a>
           </Stack>
         </List>
@@ -77,7 +78,9 @@ const Footer = () => {
           <ListItem mb="8px">Contact US</ListItem>
         </List>
         <List>
-          <Text>English <FontAwesomeIcon icon={faCoffee}/></Text>
+          <Select placeholder="English"  border="none">
+            <option value="option1">English</option>
+          </Select>
         </List>
       </SimpleGrid>
       <p align="center">&copy; 2021 ARIA Spectre Sdn Bhd (1288053-W) | All Rights Reserved</p>

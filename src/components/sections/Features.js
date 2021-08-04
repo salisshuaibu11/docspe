@@ -7,14 +7,15 @@ const Features = () => {
     <>
       <Flex
         align="center"
-        justify={{ base: "center",  }}
+        justify={{base: "center", md: "space-around"}}
+        spacing={{md: "4"}}
         direction={{ base: "column-reverse", md: "row" }}
         wrap="no-wrap"
         minH="70vh"
-        px={8}
+        px="5rem"
         py="6rem"
       >
-        <Box h="100%" pos="relative" w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
+        <Box pos="relative" w={{ base: "80%", sm: "100%", md: "50%" }} mb={{ base: 12}}>
           <Image
             width="400px"
             src="assets/images/Ellipse2.png"
@@ -35,7 +36,7 @@ const Features = () => {
           />
         </Box>
         <Box
-          w={{ base: "80%", md: "40%" }}
+          w={{ base: "80%", sm: "60%", md: "50%" }}
           align={["center", "center", "flex-start", "flex-start"]}
         >
           <Heading as="h2">App Features</Heading>
@@ -82,12 +83,12 @@ const Features = () => {
         direction={{ base: "column-reverse", md: "row" }}
         wrap="no-wrap"
         minH="70vh"
-        px={8}
+        px="5rem"
         py="6rem"
         mb={16}
       >
         <Box
-          w={{ base: "80%", md: "40%" }}
+          w={{ base: "80%", sm: "60%", md: "50%" }}
           align={["center", "center", "flex-start", "flex-start"]}
         >
           <List mt="1.5rem" spacing={3}>
@@ -117,7 +118,7 @@ const Features = () => {
             />
           </List>
         </Box>
-        <Box h="100%" pos="relative" w={{ base: "80%", sm: "60%", md: "50%" }} mb={{ base: 12, md: 0 }}>
+        <Box pos="relative" w={{ base: "80%", sm: "100%", md: "50%" }} mb={{ base: 12, md: 0 }}>
           <Image
             width="400px"
             src="assets/images/Ellipse3.png"

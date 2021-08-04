@@ -38,7 +38,7 @@ const Clients = () => {
     });
   });
   return (
-    <Stack bg="yellow.50" py="3rem">
+    <Stack bg="yellow.50" py="3rem" px={{xl: "5rem", sm: "1rem"}}>
       <Box align="center" w="50%" m="auto">
         <Heading as="h3" size="lg" mb={2}>
           Our Clients Speak
@@ -47,7 +47,7 @@ const Clients = () => {
       </Box>
       <div className="clients">
         <Box p={5} align="center">
-          <Box bg="white" p={5} shadow="2xl">
+          <Box bg="white" p={5} shadow="xl">
             <Heading my={2} fontSize="1.5rem" as="h4">
               Efficient Collaborating
             </Heading>
@@ -66,7 +66,7 @@ const Clients = () => {
           </Box>
         </Box>
         <Box p={5} align="center">
-          <Box bg="white" p={5} shadow="2xl">
+          <Box bg="white" p={5} shadow="xl">
             <Heading my={2} fontSize="1.5rem" as="h4">
               Efficient Collaborating
             </Heading>
@@ -85,7 +85,7 @@ const Clients = () => {
           </Box>
         </Box>
         <Box p={5} align="center">
-          <Box bg="white" p={5} shadow="2xl">
+          <Box bg="white" p={5} shadow="xl">
             <Heading my={2} fontSize="1.5rem" as="h4">
               Efficient Collaborating
             </Heading>
@@ -104,7 +104,7 @@ const Clients = () => {
           </Box>
         </Box>
         <Box p={5} align="center">
-          <Box bg="white" p={5} shadow="2xl">
+          <Box bg="white" p={5} shadow="xl">
             <Heading my={2} fontSize="1.5rem" as="h4">
               Efficient Collaborating
             </Heading>
@@ -123,7 +123,7 @@ const Clients = () => {
           </Box>
         </Box>
         <Box p={5} align="center">
-          <Box bg="white" p={5} shadow="2xl">
+          <Box bg="white" p={5} shadow="xl">
             <Heading my={2} fontSize="1.5rem" as="h4">
               Efficient Collaborating
             </Heading>
