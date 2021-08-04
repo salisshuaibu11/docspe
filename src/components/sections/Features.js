@@ -9,13 +9,13 @@ const Features = () => {
         align="center"
         justify={{base: "center", md: "space-around"}}
         spacing={{md: "4"}}
-        direction={{ base: "column-reverse", md: "row" }}
+        direction={{ base: "column", md: "row", sm: "column" }}
         wrap="no-wrap"
         minH="70vh"
-        px="5rem"
+        px={{xl: "5rem", md: "2rem"}}
         py="6rem"
       >
-        <Box pos="relative" w={{ base: "80%", sm: "100%", md: "50%" }} mb={{ base: 12}}>
+        <Box pos="relative" w={{ base: "80%", md: "50%" }} mb={{ sm: "3rem"}}>
           <Image
             width="400px"
             src="assets/images/Ellipse2.png"
@@ -40,7 +40,7 @@ const Features = () => {
           align={["center", "center", "flex-start", "flex-start"]}
         >
           <Heading as="h2">App Features</Heading>
-          <List mt="1.5rem" spacing={3}>
+          <List mt="1.5rem" mb={{base: "8rem", xl: "0rem"}} spacing={3}>
             <ListItemComponent
               textPrimary="Thousands of Doctors"
               textSecondary="Explore our all services"
@@ -80,10 +80,10 @@ const Features = () => {
       <Flex
         align="center"
         justify={{ base: "center", md: "space-around", xl: "space-between" }}
-        direction={{ base: "column-reverse", md: "row" }}
+        direction={{ base: "column", md: "row", sm: "column" }}
         wrap="no-wrap"
         minH="70vh"
-        px="5rem"
+        px={{xl: "5rem", md: "2rem"}}
         py="6rem"
         mb={16}
       >
@@ -118,7 +118,7 @@ const Features = () => {
             />
           </List>
         </Box>
-        <Box pos="relative" w={{ base: "80%", sm: "100%", md: "50%" }} mb={{ base: 12, md: 0 }}>
+        <Box pos="relative" w={{ base: "80%", md: "50%" }} mb={{ base: 12, md: 0 }}>
           <Image
             width="400px"
             src="assets/images/Ellipse3.png"

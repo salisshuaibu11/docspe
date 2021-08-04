@@ -25,7 +25,7 @@ const Footer = () => {
       <SimpleGrid
         py="1rem"
         px="10rem"
-        columns={{xl: "5", md: "3", sm: "2"}}
+        columns={{xl: "5", md: "3"}}
         spacing="40px"
       >
         <List>

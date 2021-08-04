@@ -20,16 +20,16 @@ const Header = () => {
       wrap="no-wrap"
       py="6rem"
       minH="70vh"
-      px={8}
       mb={16}
     >
     <Stack
       spacing={4}
+      pl={{xl: "5rem"}}
       w={{base: "80%", md: "40%"}}
       align={["center", "center", "flex-start", "flex-start"]}>
         <Heading
           as="h1"
-          size="xl"
+          size="2xl"
           fontWeight="bold"
           color="primary.800"
           textAlign={["center", "center", "left", "left"]}>
@@ -56,7 +56,7 @@ const Header = () => {
           </a>
         </Stack>
 
-        <Stack spacing={4} direction="column" align="center">
+        <Stack style={{marginTop: "4rem"}} spacing={4} direction="column" align="center">
           <Heading
             as="p"
             size="md"

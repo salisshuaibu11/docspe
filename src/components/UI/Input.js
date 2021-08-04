@@ -19,6 +19,9 @@ const InputComponent = ({bgColor, textColor, borderColor}) => {
           bg={bgColor}
           rounded="0"
           pos="absolute"
+          _hover={{
+            background: bgColor
+          }}
           borderColor={borderColor}
           right="0"
           p={5}

@@ -18,21 +18,21 @@ const Doctors = () => {
       <SimpleGrid
           columns={{xl: "3", md: "2"}}>
         <Box align="center">
-          <Image shadow="lg" src="assets/images/doctors/1.png" rounded="1"/>
+          <Image shadow="lg" maxH="80%" src="assets/images/doctors/1.png" rounded="1rem"/>
           <Heading my={2} color="blue.700" fontSize="1.4rem" as="h4">
             Dr. Mohd Shah
           </Heading>
           <Text>GP / General</Text>
         </Box>
         <Box align="center">
-          <Image shadow="lg" src="assets/images/doctors/3.png" rounded="1"/>
+          <Image shadow="lg" src="assets/images/doctors/2.png" maxH="80%" rounded="1rem"/>
           <Heading my={2} color="blue.700" fontSize="1.4rem" as="h4">
             Dr. Choo Yin
           </Heading>
           <Text>Pediatrician</Text>
         </Box>
         <Box align="center">
-          <Image shadow="lg" src="assets/images/doctors/3.png" rounded="1rem" />
+          <Image shadow="lg" maxH="80%" src="assets/images/doctors/3.png" rounded="1rem" />
           <Heading my={2} color="blue.700" fontSize="1.4rem" as="h4">
             Dr. Choo Yin
           </Heading>

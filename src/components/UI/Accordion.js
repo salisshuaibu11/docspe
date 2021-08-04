@@ -13,7 +13,7 @@ const AccordionComponent = ({ title, content }) => {
     <AccordionItem>
       <Flex align="center">
         <Box w={4} mr={2} h={4} bg="blue.900"></Box>
-        <AccordionButton>
+        <AccordionButton _focus={{outline: "none"}}>
           <Box fontSize="1.2rem" flex="1" textAlign="left">
             {title}
           </Box>
