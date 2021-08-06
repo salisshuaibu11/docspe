@@ -1,3 +1,6 @@
+import { useRef } from "react";
+
+import Navbar from "../components/Navbar";
 import Header from "../components/sections/Header";
 import Clinic from "../components/sections/Clinic.js";
 import Services from "../components/sections/Services.js";
@@ -9,11 +12,13 @@ import DownloadApp from "../components/sections/DownloadApp.js";
 import Footer from "../components/sections/Footer.js"
 
 const LandingPage = () => {
+  const servicesRef = useRef(null);
   return (
     <>
+      <Navbar refs={servicesRef}/>
       <Header />
       <Clinic />
-      <Services />
+      <Services ref={servicesRef}/>
       <Features />
       <Doctors />
       <Clients />

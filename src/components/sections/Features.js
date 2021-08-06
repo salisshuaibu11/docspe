@@ -15,7 +15,7 @@ const Features = () => {
         px={{xl: "5rem", md: "2rem"}}
         py="6rem"
       >
-        <Box pos="relative" w={{ base: "80%", md: "50%" }} mb={{ sm: "3rem"}}>
+        <Box pos="relative" w={{ base: "80%", md: "50%" }} mb={{base: "10rem", md: 0}}>
           <Image
             width="400px"
             src="assets/images/Ellipse2.png"
@@ -89,6 +89,7 @@ const Features = () => {
       >
         <Box
           w={{ base: "80%", sm: "60%", md: "50%" }}
+          mb={{base: "8rem", md: 0}}
           align={["center", "center", "flex-start", "flex-start"]}
         >
           <List mt="1.5rem" spacing={3}>

@@ -10,9 +10,9 @@ import {
 } from "@chakra-ui/react";
 import { PhoneIcon } from "@chakra-ui/icons";
 
-const Services = () => {
+const Services = ({ref}) => {
   return (
-    <Stack bg="gray.100" p="5rem">
+    <Stack bg="gray.100" p="5rem" ref={ref}>
       <Heading as="h3" size="lg" align="center">
         Our Services
       </Heading>
